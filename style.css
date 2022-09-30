@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Permanent+Marker&display=swap');
+
+body{
+  background-color: #8b1638;
+  margin: 0 auto;
+  box-sizing: border-box;
+  text-decoration: none;
+  max-width: 1500px;
+  
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;   
+    border-bottom: 0.4px solid #edeee4;
+}
+
+li
+{
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #edeee4;
+    font-size: 18px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #edeee4;
+}
+
+a:hover{
+  color: #5d0000;
+    transition: 0.20s all;
+}
+
+.icon
+{
+  max-width: 70px;
+}
+
+
+h1
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.q, .e, .s, .n, .england, .iran, .usa, .wales, .argentina, .saudi, .mexico, .poland, .france, .australia, .denmark, .tunisia, .spain, .costa, .germany, .japan, .croatia, .belgium, .canada, .morocco, .brasil, .serbia, .swit, .cameroon, .portugal, .ghana, .uruguay, .korea
+{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.qatar, .ecu, .nethe, .sene, .eng-img, .img-iran, .img-usa, .img-wales, .img-argentina, .img-saudi, .img-mexi, .img-poland, .img-france, .img-australia, .img-denmark, .img-tunisia, .img-spain, .img-costa, .img-germany, .img-japan, .img-croatia, .img-morocco, .img-canada, .img-belgium, .img-brasil, .img-serbia, .img-swit, .img-cameroon, .img-portugal, .img-ghana, .img-uruguay, .img-korea
+{
+  max-width: 35px;
+  border-radius: 5px;
+}
+
+.AateD
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.EateH
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-bottom: 200px;
+}
+
+
+.A, .B, .C, .D, .E, .F, .G, .H
+{
+  background-color: #edeee4;
+  width: 250px;
+  border-radius: 20px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  box-shadow:  5px 5px 0px #250000,
+             -5px -5px 0px #930000;
+}
+
+.s1
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 300px;
+  color: #edeee4;
+}
+
+.copah1
+{
+  font-size: 100px;
+}
+
+.p11, .p22
+{
+  font-size: 20px;
+  padding: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.s2
+{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 300px;
+}
+
+.h1bra
+{
+  font-size: 60px;
+  color: #edeee4;
+}
+
+.pelenco
+{
+  font-size: 26px;
+  font-family: 'Bebas Neue', cursive;
+  color: #edeee4;
+}
+
+.pcont
+{
+  font-size: 22px;
+  font-family: 'Bebas Neue', cursive;
+  color: #edeee4;
+  
+}
+
+.imgelenco
+{
+  border-radius: 30px;
+  border: 1px solid #edeee4;
+  box-shadow:  5px 5px 0px #5b0000,
+             -5px -5px 0px #5d0000;
+}
+
+.s3
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  color: #edeee4;
+}
+
+.h1est
+{
+  font-size: 100px;
+}
+
+
+.imge1, .imge2, .imge3, .imge4, .imge5
+{
+  max-width: 600px;
+  border-radius: 30px;
+  box-shadow:  5px 5px 0px #5b0000,
+  -5px -5px 0px #5d0000;
+}
+
+.he1, .he2, .he3, .he4, .he5
+{
+  font-size: 40px;
+}
+
+.h1gr
+{
+  font-size: 100px;
+  color: #edeee4;
+}
+
+.ss
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 300px;
+}
+
+.h1mascote
+{
+  font-size: 60px;
+  color: #edeee4;
+}
+
+.pmascote
+{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px;
+  color: #edeee4;
+}
+
+.footer
+{
+  margin-top: 200px;
+  color: #edeee4;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 0.4px solid #edeee4;
+}
+
+.hmascote{
+  font-size: 100px;
+  color: #edeee4;
+}
+
+
+
+@media screen and (max-width: 1600px) 
+{
+    body
+    {
+        max-width: 1200px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) 
+{
+    body
+    {
+        max-width: 1000px;
+    }
+
+    .s2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .AateD
+    {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+  margin-left: 20px;
+    }
+
+.EateH
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 200px;
+}
+
+}
+
+@media screen and (max-width: 1200px) 
+{
+    body
+    {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 820px) 
+{
+  body
+    {
+        max-width: 700px;
+    }
+    .imgelenco
+    {
+      max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 650px) 
+{
+  body
+    {
+        max-width: 500px;
+    }
+    .imgelenco
+    {
+      max-width: 500px;
+    }
+
+    .AateD
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+.EateH
+{
+  display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.ss{
+  display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.imgmasc
+{
+  max-width: 500px;
+}
+
+.imge1, .imge2, .imge3, .imge4, .imge5
+{
+  max-width: 500px;
+}
+
+.p11, .p22
+{
+  
+  padding-left: 0px;
+  padding-right: 0px;
+  
+}
+
+header
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  ul
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon
+  {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) 
+{
+  body
+    {
+        max-width: 300px;
+    }
+    .imge1, .imge2, .imge3, .imge4, .imge5, .imgmasc, .imgelenco
+{
+  max-width: 400px;
+}
+  }
+
+  @media screen and (max-width: 435px) 
+{
+  body
+    {
+        max-width: 300px;
+    }
+    .imge1, .imge2, .imge3, .imge4, .imge5, .imgmasc, .imgelenco
+{
+  max-width: 300px;
+}
+  }
+
+  @media screen and (max-width: 335px) 
+{
+  body
+    {
+        max-width: 250px;
+    }
+    .imge1, .imge2, .imge3, .imge4, .imge5, .imgmasc, .imgelenco
+{
+  max-width: 250px;
+}
+  }
